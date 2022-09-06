@@ -1,0 +1,118 @@
+/* Formato de texo a usar  */
+
+  h2 {   font-size: 25px; text-align: left; }
+
+/* Una página de ancho al 90%, centrada, con un ancho mínimo de 600 píxeles y con máximo de 1000 píxeles: */
+ 
+  body  {width:90%;margin: 0 auto;min-width:600px;max-width:1000px}
+
+
+/* Formato de la imagen de encabezado y el texto */
+  #container {
+  height: 800px;
+  width: 800px;
+  position: relative;
+  }
+  #image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  }
+  #text {
+  z-index: 100;
+  position: relative;
+  color: #999999;
+  font-size: 90px;
+  font-weight: bold;
+  left: 150px;
+  top: 0px;
+}
+
+
+/* Formato de la imagen de link de la izquierda y el texto */
+
+  #container_b {
+  height: 400px;
+  width: 300px;
+  position: relative;
+  }
+  #image_b {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  top: -65;
+  }
+  #text_b {
+
+  z-index: 100;
+  position: relative;
+  color: white;
+  background: #454545;
+  font-size: 30px;
+  font-weight: bold;
+  left: 0px;
+  top: -400px;
+  }
+
+/* Formato de la imagen del centro  y el texto */
+  #container_c {
+  height: 500px;
+  width: 450px;
+  position: relative;
+  }
+  #image_c {
+  position: relative;
+  left: 400;
+  bottom: 0;
+  top: -700;
+  }
+  #text_c {
+
+  z-index: 100;
+  position: relative;
+  color: black;
+  background: white;
+  font-size: 15px;
+  font-weight: bold;
+  left: 320px;
+  top: -700px;
+  }
+
+
+/* Formato del video que se reproducira */
+    #video {
+    position: relative;
+    left: 0;
+    top: -850;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+    }
+
+/* Formato del audio que se reproducira */
+
+    #audio_a {
+    position: relative;
+    left: 400;
+    top: -100;
+    width: 100%;
+    height: auto;  
+    z-index: 99;
+    visibility: visible;
+    }
+
+/* Formato de la imagen del pie */
+    #container_d {
+     height: 500px;
+     width: 500px;
+     position: relative;
+    }
+
+
+  #image_d {
+  position: relative;
+  left: -400;
+  bottom: 0;
+  top: 0;
+  }
